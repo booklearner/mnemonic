@@ -1,0 +1,3 @@
+(library
+ (name mnemonic)
+ (libraries base cmdliner))
