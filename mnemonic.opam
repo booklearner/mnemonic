@@ -8,6 +8,7 @@ in other words, it is an implementation of BIP-0039 (Bitcoin Improvement Proposa
 introduces a mechanism to generate mnemonics (group of words) and convert them into a
 binary seed. See https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki for more
 information."""
+maintainer: ["booklearner <booklearner@proton.me>"]
 authors: ["booklearner <booklearner@proton.me>"]
 license: "BSD-3-Clause"
 homepage: "https://github.com/booklearner/ocaml-mnemonic"
@@ -15,6 +16,9 @@ bug-reports: "https://github.com/booklearner/ocaml-mnemonic/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.4"}
+  "ocamlformat"
+  "base"
+  "cmdliner"
   "odoc" {with-doc}
 ]
 build: [

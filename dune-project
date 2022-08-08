@@ -4,6 +4,7 @@
 (source (github booklearner/ocaml-mnemonic))
 (homepage "https://github.com/booklearner/ocaml-mnemonic")
 (authors "booklearner <booklearner@proton.me>")
+(maintainers "booklearner <booklearner@proton.me>")
 (license BSD-3-Clause)
 
 (package
@@ -15,4 +16,4 @@ in other words, it is an implementation of BIP-0039 (Bitcoin Improvement Proposa
 introduces a mechanism to generate mnemonics (group of words) and convert them into a
 binary seed. See https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki for more
 information.")
- (depends ocaml dune))
+ (depends ocaml dune ocamlformat base cmdliner))
