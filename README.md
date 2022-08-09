@@ -4,6 +4,8 @@ OCaml implementation of mnemonic code for generating deterministic keys (i.e. [B
 
 ## Development
 
+Install [`opam`](https://opam.ocaml.org/), then follow instructions below to install dependencies, build the project, and run it.
+
 ```
 ; opam install .
 ; dune build
