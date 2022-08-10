@@ -11,13 +11,12 @@ Install [`opam`](https://opam.ocaml.org/), then follow instructions below to ins
 ```console
 ; opam install .
 ; dune build
-; dune exec mnemonic
 ```
 
 ## Usage
 
 ```console
-; dune install
+; dune build @install
 ; mnemonic --help
 mnemonic [options]
   -l  Specify the length of the mnemonic phrase (default is 24).
@@ -26,7 +25,6 @@ mnemonic [options]
   -help  Display this list of options
   --help  Display this list of options
 ```
-...
 
 ## License
 
