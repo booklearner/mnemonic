@@ -15,6 +15,8 @@ Install [`opam`](https://opam.ocaml.org/), then follow instructions below to ins
 
 ## Usage
 
+`mnemonic` can be used as a standalone CLI tool to generate keys
+
 ```console
 ; dune build @install
 ; mnemonic --help
@@ -25,6 +27,32 @@ mnemonic [options]
   -help  Display this list of options
   --help  Display this list of options
 ```
+
+To use as a library in another codebase, install `mnemonic` from [opam](https://opam.ocaml.org/).
+
+```console
+; opam install mnemonic
+```
+
+`dune`:
+```
+(library
+  (name <your library name>)
+  (libraries mnemonic))
+```
+
+`<program>.ml`
+```ocaml
+open Mnemonic
+
+(* TODO: add usage examples *)
+```
+
+## TODO
+
+- [ ] finalize the exposed interface functions in a `.mli` file
+- [ ] test against reference implementation test suite
+- [ ] publish `mnemonic` to opam
 
 ## License
 
