@@ -8,7 +8,7 @@ See also the [reference implementation written in Python](https://github.com/tre
 
 Install [`opam`](https://opam.ocaml.org/), then follow instructions below to install dependencies, build the project, and run it.
 
-```
+```console
 ; opam install .
 ; dune build
 ; dune exec mnemonic
@@ -16,6 +16,16 @@ Install [`opam`](https://opam.ocaml.org/), then follow instructions below to ins
 
 ## Usage
 
+```console
+; dune install
+; mnemonic --help
+mnemonic [options]
+  -l  Specify the length of the mnemonic phrase (default is 24).
+  -o  Specify the file to write the output to (default is stdout).
+  --version  Display the version of the currently installed mnemonic.
+  -help  Display this list of options
+  --help  Display this list of options
+```
 ...
 
 ## License
