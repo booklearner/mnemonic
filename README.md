@@ -6,6 +6,8 @@ See also the [reference implementation written in Python](https://github.com/tre
 
 ## Development
 
+For a quick introduction to [OCaml](https://ocaml.org), browse the [official documentation](https://ocaml.org/docs). For a deeper understanding, check out [Real World OCaml](https://dev.realworldocaml.org/).
+
 Install [`opam`](https://opam.ocaml.org/), then follow instructions below to install dependencies, build the project, and run it.
 
 ```console

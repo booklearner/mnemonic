@@ -29,9 +29,11 @@ let spec =
 
 let main () =
   Arg.parse spec anon_fun usage_msg;
-  match !mnemonic_length with
-  | 12 -> generate 12 !output_file
-  | 24 -> generate 24 !output_file
+  let len = !mnemonic_length in
+  let file = !output_file in
+  match len with
+  | 12 -> generate len file
+  | 24 -> generate len file
   | _ -> failwith "Mnemonic phrase length must be 12 or 24"
 
 let () =
