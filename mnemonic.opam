@@ -12,8 +12,8 @@ information."""
 maintainer: ["booklearner <booklearner@proton.me>"]
 authors: ["booklearner <booklearner@proton.me>"]
 license: "BSD-3-Clause"
-homepage: "https://github.com/booklearner/ocaml-mnemonic"
-bug-reports: "https://github.com/booklearner/ocaml-mnemonic/issues"
+homepage: "https://github.com/booklearner/mnemonic"
+bug-reports: "https://github.com/booklearner/mnemonic/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.4"}
@@ -36,4 +36,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/booklearner/ocaml-mnemonic.git"
+dev-repo: "git+https://github.com/booklearner/mnemonic.git"
