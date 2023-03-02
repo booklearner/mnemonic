@@ -22,6 +22,9 @@ let spec =
     ( "-o",
       Arg.Set_string output_file,
       " Specify the file to write the output to (default is stdout)." );
+    ( "-v",
+      Arg.Unit print_version,
+      " Display the version of the currently installed mnemonic." );
     ( "--version",
       Arg.Unit print_version,
       " Display the version of the currently installed mnemonic." );
